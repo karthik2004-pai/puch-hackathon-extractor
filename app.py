@@ -25,7 +25,7 @@ from mcp.server.lowlevel import Server
 
 def main(port: int, transport: str) -> int:
 
-    app = Server("mcp-info-extractor-server")
+    app = Server("pai-info-extractor-server")
 
     @app.call_tool()
 
@@ -188,6 +188,7 @@ def main(port: int, transport: str) -> int:
 if __name__ == "__main__":
 
     main()
+
 
 
 
